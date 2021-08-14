@@ -1,0 +1,375 @@
+body {
+    background-color: orange;
+}
+.banner {
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+        margin: auto;
+        padding: 0px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.header-logo {
+    padding-left: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+ul{
+    padding-right: 30px;
+}
+    .banner ul li {
+        
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    
+    .banner ul li a {
+        text-decoration: none;
+        color: rgb(15, 14, 14);
+        text-transform: uppercase;
+    }
+    
+    .banner ul li::after {
+        content: "";
+        height: 3px;
+        width: 0;
+        background: orange;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: .5s;
+    }
+    
+    .banner ul li:hover::after {
+        width: 100%;
+    }
+    
+    .content {
+        height: 90%;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fff; 
+        margin: 30px;
+        margin-left: 50px;
+    }
+video{
+    float: right;
+    margin-top: -400px;
+    margin-right: 120px;
+    box-shadow: 0 0 15px 5px rgb(255, 255, 255);
+}
+
+.content h1 {
+    width: 450px;
+    font-size: 70px;
+    margin-top: 80px;
+    display: block;
+}
+.content h2 {
+    font-size: 50px;
+  
+}
+.movers-text{
+    width: 500px;
+}
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(15, 14, 14);
+    background: transparent;
+    color: rgb(14, 13, 13);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: rgb(255, 255, 255);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+img {
+    box-shadow: 0 0 15px 5px rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+img:hover {
+    box-sizing: 1.5em;
+}
+
+
+/* kuba*/
+.top-screen {
+    height: 1154px;
+    padding-top: 80px;
+    margin-left: -60px;
+    background-color: #FFF7DF;
+    ;
+}
+
+.links {
+    margin-left: 220px;
+    width: 936px;
+    height: 215.25px;
+    left: 482px;
+    top: 956px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 119px;
+    align-items: center;
+}
+
+.youtube,
+.github,
+.notion {
+    width: 255px;
+    height: 180px;
+    margin-left: 75px;
+    padding-left: -30px;
+    background-image: url(Ellipse26.png);
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+    background-size: 100px;
+    
+
+}
+
+.subtitle {
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 182.7%;
+    text-align: center;
+    color: #3b3b3b;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.descr {
+    font-size: 14px;
+    line-height: 17px;
+    color: #5C5C5C;
+}
+
+.main {
+    display: flex;
+}
+
+.img {
+    width: 100%;
+    border-radius: 1% 100% 50% 1%;
+    left: -100px;
+}
+
+.title {
+    margin-top: 70px;
+    margin-left: 110px;
+}
+
+.titls {
+    width: 534px;
+    height: 198px;
+    font-size: 30px;
+    line-height: 158.34%;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-weight: 600;
+    color: rgb(253, 184, 56);
+}
+
+.section-suptitle {
+    font-weight: 900;
+    color: orange;
+}
+
+.btn {
+    width: 160px;
+    height: 56px;
+    background-color: orange;
+    border-radius: 100px;
+    padding: 20px 53px;
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.section-descr {
+    width: 387px;
+    height: 198px;
+    font-size: 14px;
+    line-height: 175.78%;
+    color: #5C5C5C;
+}
+
+/* bekmyrza*/
+.our-team {
+    display: inline-block;
+    margin-top: 100px;
+    min-height: 700px;
+}
+
+.team-text {
+    float: left;
+    margin-top: 150px;
+    color: white;
+    padding-left: 30px;
+    width: 400px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.main-logo {
+    width: 300px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+img.hover:hover {
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px rgb(0, 168, 132);
+}
+
+
+
+.members {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.baktygul {
+    float: left;
+    margin-top: 150px;
+    width: 180px;
+    height: 270px;
+
+
+}
+
+.kanyshai {
+    margin-top: 70px;
+    margin-left: 22px;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.shairgul {
+    float: right;
+    margin-top: -250px;
+    margin-left: 202px;
+    width: 260px;
+    height: 173px;
+
+}
+
+.kubanychbek {
+    float: right;
+    margin-top: -55px;
+    margin-left: -700px;
+    margin-right: 158px;
+    width: 100px;
+    height: 150px;
+
+}
+
+.bottom-members {
+    display: inline-block;
+}
+
+.saltanat {
+    margin-top: 20px;
+    margin-left: 22px;
+    width: 100px;
+    height: 150px;
+
+}
+
+.bekmyrza {
+    margin-bottom: -145px;
+    margin-left: 22px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.feruza {
+    float: right;
+    margin-top: -55px;
+    margin-right: -200px;
+    width: 180px;
+    height: 270px;
+}
+
+.container2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* Footer
+===================*/
+
+.footer {
+    background-color: #FFF7DF;
+    margin-left: -60px;
+}
+
+
+/* Copyright
+===================*/
+
+.copyright {
+    padding: 20px 0;
+
+    background-color: #FFF7DF;
+}
+
+.copyright__text {
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.5;
+    color: black;
+}
+
+.copyright__text span {
+    color: #fff;
+}
