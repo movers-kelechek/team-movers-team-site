@@ -151,12 +151,10 @@ img:hover {
     height: 180px;
     margin-left: 75px;
     padding-left: -30px;
-    background-image: url(Ellipse26.png);
+    background-image: url(logo/Ellipse26.png);
     background-repeat: no-repeat;
     background-position-x: 40px;
     background-size: 100px;
-    
-
 }
 
 .subtitle {
